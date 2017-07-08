@@ -12,13 +12,16 @@ using Android.Widget;
 
 namespace TrainTrackC.Resources.Classes
 {
-    class App
+    static class App
     {
-        private static List<Workout> AvailableWorkouts = new List<Workout>();
-        private static List<CompletedWorkoutSession> WorkoutHistory = new List<CompletedWorkoutSession>();
+        private static List<Workout> _AvailableWorkouts = new List<Workout>();
+        private static List<CompletedWorkoutSession> _WorkoutHistory = new List<CompletedWorkoutSession>();
+
+        public static List<Workout> AvailableWorkouts { get => _AvailableWorkouts; set => _AvailableWorkouts = value; }
+        public static List<CompletedWorkoutSession> WorkoutHistory { get => _WorkoutHistory; set => _WorkoutHistory = value; }
 
         //This is a temporary method to fill the AvailableWorkouts list. 
-        public void fillAvailableWorkoutsTemp()
+        public static void fillAvailableWorkoutsTemp()
         {
             Workout workoutOne = new Workout("Snakebite","100 pushups, 100 situps, 100 heaves");
             Workout workoutTwo = new Workout("Fran", "100 pushups, 100 situps, 100 burpees");
@@ -38,9 +41,10 @@ namespace TrainTrackC.Resources.Classes
         }
 
         //This method is a temporary method to fill the WorkoutHistory list. To basically pretend you have done some workouts. 
-        public void fillWorkoutHistoryTemp()
+        public static void fillWorkoutHistoryTemp()
         {
             
         }
+
     }
 }

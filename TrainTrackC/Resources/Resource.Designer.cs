@@ -31,38 +31,92 @@ namespace TrainTrackC
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010000
-			public const int cardBackgroundColor = 2130771968;
+			// aapt resource value: 0x7f010008
+			public const int alignmentMode = 2130771976;
 			
-			// aapt resource value: 0x7f010001
-			public const int cardCornerRadius = 2130771969;
+			// aapt resource value: 0x7f010012
+			public const int cardBackgroundColor = 2130771986;
 			
-			// aapt resource value: 0x7f010002
-			public const int cardElevation = 2130771970;
+			// aapt resource value: 0x7f010013
+			public const int cardCornerRadius = 2130771987;
 			
-			// aapt resource value: 0x7f010003
-			public const int cardMaxElevation = 2130771971;
+			// aapt resource value: 0x7f010014
+			public const int cardElevation = 2130771988;
 			
-			// aapt resource value: 0x7f010005
-			public const int cardPreventCornerOverlap = 2130771973;
+			// aapt resource value: 0x7f010015
+			public const int cardMaxElevation = 2130771989;
 			
-			// aapt resource value: 0x7f010004
-			public const int cardUseCompatPadding = 2130771972;
+			// aapt resource value: 0x7f010017
+			public const int cardPreventCornerOverlap = 2130771991;
+			
+			// aapt resource value: 0x7f010016
+			public const int cardUseCompatPadding = 2130771990;
 			
 			// aapt resource value: 0x7f010006
-			public const int contentPadding = 2130771974;
+			public const int columnCount = 2130771974;
 			
 			// aapt resource value: 0x7f01000a
-			public const int contentPaddingBottom = 2130771978;
+			public const int columnOrderPreserved = 2130771978;
 			
-			// aapt resource value: 0x7f010007
-			public const int contentPaddingLeft = 2130771975;
+			// aapt resource value: 0x7f010018
+			public const int contentPadding = 2130771992;
 			
-			// aapt resource value: 0x7f010008
-			public const int contentPaddingRight = 2130771976;
+			// aapt resource value: 0x7f01001c
+			public const int contentPaddingBottom = 2130771996;
+			
+			// aapt resource value: 0x7f010019
+			public const int contentPaddingLeft = 2130771993;
+			
+			// aapt resource value: 0x7f01001a
+			public const int contentPaddingRight = 2130771994;
+			
+			// aapt resource value: 0x7f01001b
+			public const int contentPaddingTop = 2130771995;
+			
+			// aapt resource value: 0x7f010000
+			public const int layoutManager = 2130771968;
+			
+			// aapt resource value: 0x7f01000e
+			public const int layout_column = 2130771982;
+			
+			// aapt resource value: 0x7f01000f
+			public const int layout_columnSpan = 2130771983;
+			
+			// aapt resource value: 0x7f010010
+			public const int layout_columnWeight = 2130771984;
+			
+			// aapt resource value: 0x7f010011
+			public const int layout_gravity = 2130771985;
+			
+			// aapt resource value: 0x7f01000b
+			public const int layout_row = 2130771979;
+			
+			// aapt resource value: 0x7f01000c
+			public const int layout_rowSpan = 2130771980;
+			
+			// aapt resource value: 0x7f01000d
+			public const int layout_rowWeight = 2130771981;
+			
+			// aapt resource value: 0x7f010004
+			public const int orientation = 2130771972;
+			
+			// aapt resource value: 0x7f010002
+			public const int reverseLayout = 2130771970;
+			
+			// aapt resource value: 0x7f010005
+			public const int rowCount = 2130771973;
 			
 			// aapt resource value: 0x7f010009
-			public const int contentPaddingTop = 2130771977;
+			public const int rowOrderPreserved = 2130771977;
+			
+			// aapt resource value: 0x7f010001
+			public const int spanCount = 2130771969;
+			
+			// aapt resource value: 0x7f010003
+			public const int stackFromEnd = 2130771971;
+			
+			// aapt resource value: 0x7f010007
+			public const int useDefaultMargins = 2130771975;
 			
 			static Attribute()
 			{
@@ -77,17 +131,17 @@ namespace TrainTrackC
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int cardview_dark_background = 2131034112;
+			// aapt resource value: 0x7f070000
+			public const int cardview_dark_background = 2131165184;
 			
-			// aapt resource value: 0x7f050001
-			public const int cardview_light_background = 2131034113;
+			// aapt resource value: 0x7f070001
+			public const int cardview_light_background = 2131165185;
 			
-			// aapt resource value: 0x7f050002
-			public const int cardview_shadow_end_color = 2131034114;
+			// aapt resource value: 0x7f070002
+			public const int cardview_shadow_end_color = 2131165186;
 			
-			// aapt resource value: 0x7f050003
-			public const int cardview_shadow_start_color = 2131034115;
+			// aapt resource value: 0x7f070003
+			public const int cardview_shadow_start_color = 2131165187;
 			
 			static Color()
 			{
@@ -102,14 +156,26 @@ namespace TrainTrackC
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f060000
-			public const int cardview_compat_inset_shadow = 2131099648;
+			// aapt resource value: 0x7f040004
+			public const int cardview_compat_inset_shadow = 2130968580;
 			
-			// aapt resource value: 0x7f060001
-			public const int cardview_default_elevation = 2131099649;
+			// aapt resource value: 0x7f040005
+			public const int cardview_default_elevation = 2130968581;
 			
-			// aapt resource value: 0x7f060002
-			public const int cardview_default_radius = 2131099650;
+			// aapt resource value: 0x7f040006
+			public const int cardview_default_radius = 2130968582;
+			
+			// aapt resource value: 0x7f040003
+			public const int default_gap = 2130968579;
+			
+			// aapt resource value: 0x7f040000
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2130968576;
+			
+			// aapt resource value: 0x7f040001
+			public const int item_touch_helper_swipe_escape_max_velocity = 2130968577;
+			
+			// aapt resource value: 0x7f040002
+			public const int item_touch_helper_swipe_escape_velocity = 2130968578;
 			
 			static Dimension()
 			{
@@ -140,23 +206,89 @@ namespace TrainTrackC
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080005
-			public const int button1 = 2131230725;
+			// aapt resource value: 0x7f050003
+			public const int alignBounds = 2131034115;
 			
-			// aapt resource value: 0x7f080000
-			public const int textView1 = 2131230720;
+			// aapt resource value: 0x7f050004
+			public const int alignMargins = 2131034116;
 			
-			// aapt resource value: 0x7f080001
-			public const int textView2 = 2131230721;
+			// aapt resource value: 0x7f050005
+			public const int bottom = 2131034117;
 			
-			// aapt resource value: 0x7f080002
-			public const int textView3 = 2131230722;
+			// aapt resource value: 0x7f050018
+			public const int button1 = 2131034136;
 			
-			// aapt resource value: 0x7f080003
-			public const int textView4 = 2131230723;
+			// aapt resource value: 0x7f050006
+			public const int center = 2131034118;
 			
-			// aapt resource value: 0x7f080004
-			public const int textView5 = 2131230724;
+			// aapt resource value: 0x7f050007
+			public const int center_horizontal = 2131034119;
+			
+			// aapt resource value: 0x7f050008
+			public const int center_vertical = 2131034120;
+			
+			// aapt resource value: 0x7f050009
+			public const int clip_horizontal = 2131034121;
+			
+			// aapt resource value: 0x7f05000a
+			public const int clip_vertical = 2131034122;
+			
+			// aapt resource value: 0x7f05000b
+			public const int end = 2131034123;
+			
+			// aapt resource value: 0x7f05000c
+			public const int fill = 2131034124;
+			
+			// aapt resource value: 0x7f05000d
+			public const int fill_horizontal = 2131034125;
+			
+			// aapt resource value: 0x7f05000e
+			public const int fill_vertical = 2131034126;
+			
+			// aapt resource value: 0x7f050001
+			public const int horizontal = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int item_touch_helper_previous_elevation = 2131034112;
+			
+			// aapt resource value: 0x7f05000f
+			public const int left = 2131034127;
+			
+			// aapt resource value: 0x7f050019
+			public const int recyclerView = 2131034137;
+			
+			// aapt resource value: 0x7f050010
+			public const int right = 2131034128;
+			
+			// aapt resource value: 0x7f050011
+			public const int start = 2131034129;
+			
+			// aapt resource value: 0x7f050013
+			public const int textView1 = 2131034131;
+			
+			// aapt resource value: 0x7f050014
+			public const int textView2 = 2131034132;
+			
+			// aapt resource value: 0x7f050015
+			public const int textView3 = 2131034133;
+			
+			// aapt resource value: 0x7f050016
+			public const int textView4 = 2131034134;
+			
+			// aapt resource value: 0x7f050017
+			public const int textView5 = 2131034135;
+			
+			// aapt resource value: 0x7f05001b
+			public const int textViewWorkoutDetail = 2131034139;
+			
+			// aapt resource value: 0x7f05001a
+			public const int textViewWorkoutName = 2131034138;
+			
+			// aapt resource value: 0x7f050012
+			public const int top = 2131034130;
+			
+			// aapt resource value: 0x7f050002
+			public const int vertical = 2131034114;
 			
 			static Id()
 			{
@@ -184,10 +316,13 @@ namespace TrainTrackC
 			public const int Toolbar = 2130903043;
 			
 			// aapt resource value: 0x7f030004
-			public const int WorkoutDetail = 2130903044;
+			public const int WorkoutCardView = 2130903044;
 			
 			// aapt resource value: 0x7f030005
-			public const int WorkoutHistory = 2130903045;
+			public const int WorkoutDetail = 2130903045;
+			
+			// aapt resource value: 0x7f030006
+			public const int WorkoutHistory = 2130903046;
 			
 			static Layout()
 			{
@@ -202,11 +337,11 @@ namespace TrainTrackC
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f070001
-			public const int ApplicationName = 2131165185;
+			// aapt resource value: 0x7f080001
+			public const int ApplicationName = 2131230721;
 			
-			// aapt resource value: 0x7f070000
-			public const int Hello = 2131165184;
+			// aapt resource value: 0x7f080000
+			public const int Hello = 2131230720;
 			
 			static String()
 			{
@@ -221,17 +356,17 @@ namespace TrainTrackC
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int Base_CardView = 2130968577;
+			// aapt resource value: 0x7f060001
+			public const int Base_CardView = 2131099649;
 			
-			// aapt resource value: 0x7f040000
-			public const int CardView = 2130968576;
+			// aapt resource value: 0x7f060000
+			public const int CardView = 2131099648;
 			
-			// aapt resource value: 0x7f040002
-			public const int CardView_Dark = 2130968578;
+			// aapt resource value: 0x7f060002
+			public const int CardView_Dark = 2131099650;
 			
-			// aapt resource value: 0x7f040003
-			public const int CardView_Light = 2130968579;
+			// aapt resource value: 0x7f060003
+			public const int CardView_Light = 2131099651;
 			
 			static Style()
 			{
@@ -249,17 +384,17 @@ namespace TrainTrackC
 			public static int[] CardView = new int[] {
 					16843071,
 					16843072,
-					2130771968,
-					2130771969,
-					2130771970,
-					2130771971,
-					2130771972,
-					2130771973,
-					2130771974,
-					2130771975,
-					2130771976,
-					2130771977,
-					2130771978};
+					2130771986,
+					2130771987,
+					2130771988,
+					2130771989,
+					2130771990,
+					2130771991,
+					2130771992,
+					2130771993,
+					2130771994,
+					2130771995,
+					2130771996};
 			
 			// aapt resource value: 1
 			public const int CardView_android_minHeight = 1;
@@ -299,6 +434,120 @@ namespace TrainTrackC
 			
 			// aapt resource value: 11
 			public const int CardView_contentPaddingTop = 11;
+			
+			public static int[] GridLayout = new int[] {
+					2130771972,
+					2130771973,
+					2130771974,
+					2130771975,
+					2130771976,
+					2130771977,
+					2130771978};
+			
+			// aapt resource value: 4
+			public const int GridLayout_alignmentMode = 4;
+			
+			// aapt resource value: 2
+			public const int GridLayout_columnCount = 2;
+			
+			// aapt resource value: 6
+			public const int GridLayout_columnOrderPreserved = 6;
+			
+			// aapt resource value: 0
+			public const int GridLayout_orientation = 0;
+			
+			// aapt resource value: 1
+			public const int GridLayout_rowCount = 1;
+			
+			// aapt resource value: 5
+			public const int GridLayout_rowOrderPreserved = 5;
+			
+			// aapt resource value: 3
+			public const int GridLayout_useDefaultMargins = 3;
+			
+			public static int[] GridLayout_Layout = new int[] {
+					16842996,
+					16842997,
+					16842998,
+					16842999,
+					16843000,
+					16843001,
+					16843002,
+					2130771979,
+					2130771980,
+					2130771981,
+					2130771982,
+					2130771983,
+					2130771984,
+					2130771985};
+			
+			// aapt resource value: 1
+			public const int GridLayout_Layout_android_layout_height = 1;
+			
+			// aapt resource value: 2
+			public const int GridLayout_Layout_android_layout_margin = 2;
+			
+			// aapt resource value: 6
+			public const int GridLayout_Layout_android_layout_marginBottom = 6;
+			
+			// aapt resource value: 3
+			public const int GridLayout_Layout_android_layout_marginLeft = 3;
+			
+			// aapt resource value: 5
+			public const int GridLayout_Layout_android_layout_marginRight = 5;
+			
+			// aapt resource value: 4
+			public const int GridLayout_Layout_android_layout_marginTop = 4;
+			
+			// aapt resource value: 0
+			public const int GridLayout_Layout_android_layout_width = 0;
+			
+			// aapt resource value: 10
+			public const int GridLayout_Layout_layout_column = 10;
+			
+			// aapt resource value: 11
+			public const int GridLayout_Layout_layout_columnSpan = 11;
+			
+			// aapt resource value: 12
+			public const int GridLayout_Layout_layout_columnWeight = 12;
+			
+			// aapt resource value: 13
+			public const int GridLayout_Layout_layout_gravity = 13;
+			
+			// aapt resource value: 7
+			public const int GridLayout_Layout_layout_row = 7;
+			
+			// aapt resource value: 8
+			public const int GridLayout_Layout_layout_rowSpan = 8;
+			
+			// aapt resource value: 9
+			public const int GridLayout_Layout_layout_rowWeight = 9;
+			
+			public static int[] RecyclerView = new int[] {
+					16842948,
+					16842993,
+					2130771968,
+					2130771969,
+					2130771970,
+					2130771971};
+			
+			// aapt resource value: 1
+			public const int RecyclerView_android_descendantFocusability = 1;
+			
+			// aapt resource value: 0
+			public const int RecyclerView_android_orientation = 0;
+			
+			// aapt resource value: 2
+			public const int RecyclerView_layoutManager = 2;
+			
+			// aapt resource value: 4
+			public const int RecyclerView_reverseLayout = 4;
+			
+			// aapt resource value: 3
+			public const int RecyclerView_spanCount = 3;
+			
+			// aapt resource value: 5
+			public const int RecyclerView_stackFromEnd = 5;
 			
 			static Styleable()
 			{
